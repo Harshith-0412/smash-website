@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STEP-IT-UP</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="image/logo.png">
+</head>
+
+<body>
+    <section>
+        <nav>
+            <div class="logo">
+                <h1>SMASH<span> /\ </span></h1>
+            </div>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Products">Products</a></li>
+                <li><a href="#About">About</a></li>
+                <!-- <li><a href="#Review">Review</a></li> -->
+            </ul>
+        </nav>
+
+        <div class="main" id="Home">
+            <div class="main_content">
+                <div class="main_text">
+                    <h1>SMASH<br><span>Collection</span></h1>
+                    <p>
+                        Whether you're a casual player seeking recreational enjoyment or a dedicated athlete aiming
+                        for greatness,
+                        our Badminton Equipment Website is your ultimate destination for all your badminton needs.
+                        Elevate your game, unleash your potential, and experience the joy of badminton like never
+                        before.
+                        Start browsing now and get ready to conquer the court!
+                    </p>
+                </div>
+                <div class="main_image">
+                    <img src="images/bad.png">
+                </div>
+            </div>
+            <div class="button">
+                <a href="#Products">OUR PRODUCTS</a>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+        </div>
+    </section>
+
+    <div class="products" id="Products">
+        <h1>Products</h1>
+        <div class="filter-bar">
+          <div class="filter-group">
+            <label for="categorySelect">Category:</label>
+            <select id="categorySelect">
+              <option value="All">All</option>
+            </select>
+          </div>
+    
+          <div class="filter-group">
+            <label for="brandSelect">Brand:</label>
+            <select id="brandSelect">
+              <option value="All">All</option>
+            </select>
+          </div>
+    
+          <div class="filter-group">
+            <label for="searchInput">Search:</label>
+            <input type="text" id="searchInput" placeholder="Search...">
+          </div>
+    
+          <div class="filter-group">
+            <label for="sortSelect">Sort By:</label>
+            <select id="sortSelect">
+              <option value="rating">Rating</option>
+              <option value="price,asc">Price (Low to High)</option>
+              <option value="price,desc">Price (High to Low)</option>
+            </select>
+          </div>
+        </div>
+    
+        <div class="box" id="productsContainer">
+          <!-- Product cards will be dynamically added here -->
+        </div>
+    
+        <div class="pagination">
+          <button id="prevButton" disabled>Previous</button>
+          <button id="nextButton">Next</button>
+        </div>
+      </div>
+
+    <!--About-->
+    <div class="about" id="About">
+        <h1>Web<span>About</span></h1>
+
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="images/bad_shoes1.png" onclick="functio(this)">
+                    <img src="images/bad_shoes2.png" onclick="functio(this)">
+                    <img src="images/bad_shoes3.png" onclick="functio(this)">
+                    <img src="images/bad_shoes4.png" onclick="functio(this)">
+                </div>
+
+                <div class="image_contaner">
+                    <img src="images/bad_shoes1.png" id="imagebox">
+                </div>
+            </div>
+
+            <div class="about_text">
+                <p>
+                    Rackets are the heart and soul of any badminton player, and we offer an extensive selection to cater
+                    to every playing style and skill level. Our collection includes rackets from renowned brands, each
+                    designed with advanced materials and cutting-edge technology to enhance power, control, and
+                    maneuverability. Whether you prefer a head-heavy racket for powerful smashes or a lightweight one
+                    for lightning-fast swings, you'll find the ideal match to suit your unique preferences.
+                    In addition to rackets, we provide a comprehensive range of badminton accessories to complement your
+                    game. From durable shuttlecocks that deliver consistent flight and durability to grips that offer
+                    superior comfort and control, our accessories are designed to enhance your overall playing
+                    experience. We also offer a variety of strings, bags, grips, and other essential equipment to ensure
+                    you're fully equipped to perform at your best.
+                </p>
+            </div>
+        </div>
+        <a href="#" class="about_btn">Shop Now</a>
+
+        <script>
+            function functio(small) {
+                var full = document.getElementById("imagebox");
+                full.src = small.src;
+            }
+        </script>
+    </div>
+
+    <!-- <div class="review" id="Review">
+        <h1>Customer's<span>review</span></h1>
+
+        <div class="review_box">
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+                        <div class="name">
+                            <strong>RAM</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        The ABC Badminton Shoes are designed to provide ultimate comfort, stability, and traction for
+                        intense gameplay.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+                        <div class="name">
+                            <strong>Varun</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        The XYZ Badminton Racket is a top-tier choice for professional players seeking power and
+                        precision on the court.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+                        <div class="name">
+                            <strong>Sam</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        This racket boasts a sleek and aerodynamic design, crafted with high-quality graphite materials
+                        for exceptional durability and responsiveness.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="review_box">
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+                        <div class="name">
+                            <strong>Karan</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        The XYZ Badminton Racket delivers outstanding performance with its balanced weight distribution,
+                        allowing for swift swings and precise shots. The racket's innovative stringing pattern provides
+                        excellent control and enhances shot accuracy.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+                        <div class="name">
+                            <strong>John</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        The ABC Badminton Shoes are built to withstand the demands of rigorous gameplay. The reinforced
+                        toe cap and sturdy materials ensure long-lasting performance, making them a reliable choice for
+                        frequent players.
+                    </p>
+                </div>
+            </div>
+
+            <div class="review_card">
+                <div class="card_top">
+                    <div class="profile">
+                        <div class="name">
+                            <strong>Charan</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment">
+                    <p>
+                        Customers have praised the ABC Badminton Shoes for their outstanding comfort, excellent
+                        traction, and durability. Many have reported improved agility and reduced fatigue while wearing
+                        these shoes, highlighting their positive impact on performance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!--Services-->
+    <div class="services" id="Servises">
+        <h1>our<span>services</span></h1>
+    
+        <div class="services_cards">
+            <div class="services_box">
+                <h3>Fast Delivery</h3>
+                <p>From our doorstep to yours, swift and seamless delivery for your badminton needs.</p>
+            </div>
+    
+            <div class="services_box">
+                <h3>10 Days Replacement</h3>
+                <p>Shop with confidence, knowing you have 10 days to return if it's not a perfect match.</p>
+            </div>
+    
+            <div class="services_box">
+                <h3>24 x 7 Support</h3>
+                <p>We're here day and night, ready to assist you with any badminton queries or concerns.</p>
+                <a href="#" class="about_btn">Shop Now</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="login_form">
+        <div class="left">
+            <img src="images/logshoes.png">
+        </div>
+    
+        <!-- <div class="right">
+            <h1>Welcome Back!</h1>
+    
+            <form action="#" method="post">
+                <p>User Name</p>
+                <div class="user">
+                    <input type="text" name="user" placeholder="User Name" class="username">
+                </div>
+    
+                <p class="passworg_tag">Password</p>
+                <div class="password">
+                    <input type="text" name="password" placeholder="Password">
+                </div>
+    
+                <p class="forget">Forget Password ?</p>
+    
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div> -->
+    
+    <footer>
+        <div class="footer_main">
+            <div class="tag">
+                <h1>Contact</h1>
+                <a href="#">123/Bangalore/India</a>
+                <a href="#">+91 12 345 6789</a>
+                <a href="#">contact@gmail.com</a>
+            </div>
+    
+            <div class="tag">
+                <h1>Get Help</h1>
+                <a href="#" class="center">FAQ</a>
+                <a href="#" class="center">Shipping</a>
+                <a href="#" class="center">Returns</a>
+                <a href="#" class="center">Payment Options</a>
+            </div>
+    
+            <div class="tag">
+                <h1>Our Stores</h1>
+                <a href="#" class="center">USA</a>
+                <a href="#" class="center">India</a>
+                <a href="#" class="center">Japan</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const fetchDropdownOptions = () => {
+          fetch("/api/dropdownOptions")
+            .then(response => response.json())
+            .then(data => {
+              const { categoryOptions, brandOptions } = data;
+              const categorySelect = document.getElementById("categorySelect");
+              const brandSelect = document.getElementById("brandSelect");
+    
+              // Clear existing options
+              categorySelect.innerHTML = "";
+              brandSelect.innerHTML = "";
+    
+              // Add "All" option
+              const allOption = document.createElement("option");
+              allOption.value = "All";
+              allOption.textContent = "All";
+              categorySelect.appendChild(allOption.cloneNode(true));
+              brandSelect.appendChild(allOption.cloneNode(true));
+    
+              // Add category options
+              categoryOptions.forEach(option => {
+                const categoryOption = document.createElement("option");
+                categoryOption.value = option;
+                categoryOption.textContent = option;
+                categorySelect.appendChild(categoryOption);
+              });
+    
+              // Add brand options
+              brandOptions.forEach(option => {
+                const brandOption = document.createElement("option");
+                brandOption.value = option;
+                brandOption.textContent = option;
+                brandSelect.appendChild(brandOption);
+              });
+            })
+            .catch(error => {
+              console.error("Error fetching dropdown options:", error);
+            });
+        };
+    
+        // Fetch dropdown options on page load
+        fetchDropdownOptions();
+      </script>
+
+
+    <script>
+        const productsPerPage = 4; // Number of products to display per page
+let currentPage = 1; // Current page number
+let currentSort = 'rating'; // Current sort option
+let currentCategory = 'All'; // Current category filter
+let currentBrand = 'All'; // Current brand filter
+let currentSearch = ''; // Current search query
+
+// Fetch product data from the backend API
+const fetchProducts = () => {
+  const queryParams = new URLSearchParams({
+    page: currentPage,
+    limit: productsPerPage,
+    sort: currentSort,
+    category: currentCategory,
+    brand: currentBrand,
+    search: currentSearch
+  });
+
+  fetch(`/api/products?${queryParams}`)
+    .then(response => response.json())
+    .then(data => {
+      const { products, total } = data;
+      const productsContainer = document.getElementById('productsContainer');
+      productsContainer.innerHTML = ''; // Clear existing products
+
+      // Iterate over the products for the current page and create product cards dynamically
+      products.forEach(product => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const image = document.createElement('div');
+        image.className = 'img';
+        const img = document.createElement('img');
+        img.src = product.img;
+        image.appendChild(img);
+        card.appendChild(image);
+
+        const productText = document.createElement('div');
+        productText.className = 'products_text';
+        const productName = document.createElement('h3');
+        productName.textContent = product.name;
+        const productPrice = document.createElement('h3');
+        productPrice.textContent = `Rs.${product.price}`;
+        const productRating = document.createElement('h3');
+        productRating.textContent = `Rating:${product.rating}`;
+
+        productText.appendChild(productName);
+        productText.appendChild(productPrice);
+        productText.appendChild(productRating);
+        card.appendChild(productText);
+
+        productsContainer.appendChild(card);
+      });
+      const categorySelect = document.getElementById("categorySelect");
+      const brandSelect = document.getElementById("brandSelect");
+      populateDropdown(categorySelect, category);
+      populateDropdown(brandSelect, brand);
+
+
+      // Update pagination buttons
+      const prevBtn = document.getElementById('prevButton');
+      const nextBtn = document.getElementById('nextButton');
+
+      prevBtn.disabled = currentPage === 1;
+      nextBtn.disabled = currentPage === Math.ceil(total / productsPerPage);
+
+      return data;
+    })
+    .catch(error => {
+      console.error('Error fetching products:', error);
+    });
+};
+
+// Function to handle sorting
+const handleSortChange = () => {
+  const sortSelect = document.getElementById('sortSelect');
+  currentSort = sortSelect.value;
+  currentPage = 1; // Reset current page when sorting changes
+  fetchProducts();
+};
+
+// Function to handle category filtering
+const handleCategoryChange = () => {
+  const categorySelect = document.getElementById('categorySelect');
+  currentCategory = categorySelect.value;
+  currentPage = 1; // Reset current page when category changes
+  fetchProducts();
+};
+
+// Function to handle brand filtering
+const handleBrandChange = () => {
+  const brandSelect = document.getElementById('brandSelect');
+  currentBrand = brandSelect.value;
+  currentPage = 1; // Reset current page when brand changes
+  fetchProducts();
+};
+
+// Function to handle search
+const handleSearch = () => {
+  const searchInput = document.getElementById('searchInput');
+  currentSearch = searchInput.value;
+  currentPage = 1; // Reset current page when search query changes
+  fetchProducts();
+};
+
+const populateDropdown = (selectElement, options) => {
+  selectElement.innerHTML = ""; // Clear existing options
+
+  options.forEach((option) => {
+    const optionElement = document.createElement("option");
+    optionElement.value = option;
+    optionElement.textContent = option;
+    selectElement.appendChild(optionElement);
+  });
+};
+
+
+// Function to handle page navigation
+const navigateToPage = (page) => {
+  currentPage = page;
+  fetchProducts();
+};
+
+// Initial fetch of products
+fetchProducts();
+
+// Attach event listeners
+const sortSelect = document.getElementById('sortSelect');
+const categorySelect = document.getElementById('categorySelect');
+const brandSelect = document.getElementById('brandSelect');
+const searchInput = document.getElementById('searchInput');
+const prevButton = document.getElementById('prevButton');
+const nextButton = document.getElementById('nextButton');
+
+sortSelect.addEventListener('change', handleSortChange);
+categorySelect.addEventListener('change', handleCategoryChange);
+brandSelect.addEventListener('change', handleBrandChange);
+searchInput.addEventListener('input', handleSearch);
+prevButton.addEventListener('click', () => navigateToPage(currentPage - 1));
+nextButton.addEventListener('click', () => navigateToPage(currentPage + 1));
+
+      </script>
+      
+      
+    
+</body>
+
+</html>

@@ -1,0 +1,404 @@
+[
+    {
+        "name": "NANORAY LIGHT",
+        "img": "https://example.com/nanoray-light.jpg",
+        "price": 1099,
+        "category": "Rackets",
+        "rating": 4.5,
+        "brand":"YONEX"
+    },
+    {
+        "name": "ASTROX 88S",
+        "img": "https://example.com/astrox-88s.jpg",
+        "price": 2099,
+        "category": "Rackets",
+        "rating": 4.8,
+        "brand":"YONEX"
+    },
+    {
+        "name": "ASTROX 100",
+        "img": "https://example.com/astrox-100.jpg",
+        "price": 1799,
+        "category": "Rackets",
+        "rating": 4.7,
+        "brand":"YONEX"
+    },
+    {
+        "name": "NANFLARE 800",
+        "img": "https://example.com/nanflare-800.jpg",
+        "price": 1299,
+        "category": "Rackets",
+        "rating": 4.6,
+        "brand":"YONEX"
+    },
+    {
+        "name": "MAVIS 350",
+        "img": "https://example.com/mavis-350.jpg",
+        "price": 1299,
+        "category": "Shuttlecocks",
+        "rating": 4.3,
+        "brand":"YONEX"
+    },
+    {
+        "name": "MAVIS 10",
+        "img": "https://example.com/mavis-10.jpg",
+        "price": 1299,
+        "category": "Shuttlecocks",
+        "rating": 4.2,
+        "brand":"YONEX"
+    },
+    {
+        "name": "ECLIPSION Z",
+        "img": "https://example.com/eclipsion-z.jpg",
+        "price": 1199,
+        "category": "Shoes",
+        "rating": 4.4,
+        "brand":"YONEX"
+    },
+    {
+        "name": "COMFORT Z",
+        "img": "https://example.com/comfort-z.jpg",
+        "price": 1599,
+        "category": "Shoes",
+        "rating": 4.5,
+        "brand":"YONEX"
+    },
+    {
+        "name": "NANORAY 10F",
+        "img": "https://example.com/nanoray-10f.jpg",
+        "price": 899,
+        "category": "Rackets",
+        "rating": 4.1,
+        "brand":"YONEX"
+    },
+    {
+        "name": "VOLTRIC Z-FORCE II",
+        "img": "https://example.com/voltric-z-force-ii.jpg",
+        "price": 2399,
+        "category": "Rackets",
+        "rating": 4.9,
+        "brand":"YONEX"
+    },
+    {
+        "name": "AERUS 3",
+        "img": "https://example.com/aerus-3.jpg",
+        "price": 1699,
+        "category": "Shoes",
+        "rating": 4.7,
+        "brand":"YONEX"
+    },
+    {
+        "name": "NANORAY Z-SPEED",
+        "img": "https://example.com/nanoray-z-speed.jpg",
+        "price": 2199,
+        "category": "Rackets",
+        "rating": 4.6,
+        "brand":"YONEX"
+    },
+    {
+        "name": "YONEX BG65",
+        "img": "https://example.com/yonex-bg65.jpg",
+        "price": 199,
+        "category": "Strings",
+        "rating": 4.2,
+        "brand":"YONEX"
+    },
+    {
+        "name": "VICTOR GR-370",
+        "img": "https://example.com/victor-gr-370.jpg",
+        "price": 399,
+        "category": "Grips",
+        "rating": 4.0,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "YONEX BG80",
+        "img": "https://example.com/yonex-bg80.jpg",
+        "price": 249,
+        "category": "Strings",
+        "rating": 4.3,
+        "brand":"YONEX"
+    },
+    {
+        "name": "LI-NING GP20",
+        "img": "https://example.com/li-ning-gp20.jpg",
+        "price": 799,
+        "category": "Grips",
+        "rating": 4.1,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "YONEX NANORAY 20",
+        "img": "https://example.com/yonex-nanoray-20.jpg",
+        "price": 999,
+        "category": "Rackets",
+        "rating": 4.4,
+        "brand":"YONEX"
+    },
+    {
+        "name": "VICTOR THRUSTER K 9900",
+        "img": "https://example.com/victor-thruster-k-9900.jpg",
+        "price": 3499,
+        "category": "Rackets",
+        "rating": 4.8,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "LI-NING WINDSTORM 72",
+        "img": "https://example.com/li-ning-windstorm-72.jpg",
+        "price": 1999,
+        "category": "Rackets",
+        "rating": 4.5,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "YONEX AERUS 2",
+        "img": "https://example.com/yonex-aerus-2.jpg",
+        "price": 1899,
+        "category": "Shoes",
+        "rating": 4.6,
+        "brand":"YONEX"
+    },
+    {
+        "name": "LI-NING G-TEK 68 LITE",
+        "img": "https://example.com/li-ning-g-tek-68-lite.jpg",
+        "price": 699,
+        "category": "Rackets",
+        "rating": 4.2,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "YONEX BG66 ULTIMAX",
+        "img": "https://example.com/yonex-bg66-ultimax.jpg",
+        "price": 349,
+        "category": "Strings",
+        "rating": 4.3,
+        "brand":"YONEX"
+    },
+    {
+        "name": "VICTOR HYPERGRIP",
+        "img": "https://example.com/victor-hypergrip.jpg",
+        "price": 129,
+        "category": "Grips",
+        "rating": 4.0,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "YONEX ASTROX 99",
+        "img": "https://example.com/yonex-astrox-99.jpg",
+        "price": 2699,
+        "category": "Rackets",
+        "rating": 4.9,
+        "brand":"YONEX"
+    },
+    {
+        "name": "VICTOR SH-A920",
+        "img": "https://example.com/victor-sh-a920.jpg",
+        "price": 1599,
+        "category": "Shoes",
+        "rating": 4.5,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "LI-NING TURBO CHARGING 70",
+        "img": "https://example.com/li-ning-turbo-charging-70.jpg",
+        "price": 1799,
+        "category": "Rackets",
+        "rating": 4.7,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "YONEX BG68 TI",
+        "img": "https://example.com/yonex-bg68-ti.jpg",
+        "price": 249,
+        "category": "Strings",
+        "rating": 4.1,
+        "brand":"YONEX"
+    },
+    {
+        "name": "VICTOR OVERGRIP",
+        "img": "https://example.com/victor-overgrip.jpg",
+        "price": 99,
+        "category": "Grips",
+        "rating": 4.2,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "LI-NING RANGER G-TEK 98 LITE",
+        "img": "https://example.com/li-ning-ranger-g-tek-98-lite.jpg",
+        "price": 799,
+        "category": "Rackets",
+        "rating": 4.3,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "YONEX POWER CUSHION AERUS 3",
+        "img": "https://example.com/yonex-power-cushion-aerus-3.jpg",
+        "price": 1999,
+        "category": "Shoes",
+        "rating": 4.7,
+        "brand":"YONEX"
+    },
+    {
+        "name": "MUSCLE POWER 8LT",
+        "img": "https://example.com/nanoray-light.jpg",
+        "price": 1199,
+        "category": "Rackets",
+        "rating": 4.6,
+        "brand":"YONEX"
+    },
+    {
+        "name": "MUSCLE POWER 1",
+        "img": "https://example.com/astrox-88s.jpg",
+        "price": 2099,
+        "category": "Rackets",
+        "rating": 4.8,
+        "brand":"YONEX"
+    },
+    {
+        "name": "LI-NING TURBO X G5",
+        "img": "https://example.com/astrox-100.jpg",
+        "price": 1799,
+        "category": "Rackets",
+        "rating": 4.7,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "VICTOR AURASPEED",
+        "img": "https://example.com/nanflare-800.jpg",
+        "price": 1299,
+        "category": "Rackets",
+        "rating": 4.6,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "FUTURE 9",
+        "img": "https://example.com/mavis-350.jpg",
+        "price": 899,
+        "category": "Shuttlecocks",
+        "rating": 4.3,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "G600",
+        "img": "https://example.com/mavis-10.jpg",
+        "price": 1299,
+        "category": "Shuttlecocks",
+        "rating": 4.2,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "RANGER LITE Z1",
+        "img": "https://example.com/eclipsion-z.jpg",
+        "price": 4199,
+        "category": "Shoes",
+        "rating": 4.4,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "ULTRAFLY II",
+        "img": "https://example.com/comfort-z.jpg",
+        "price": 3599,
+        "category": "Shoes",
+        "rating": 4.5,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "VICTOR ARS-100",
+        "img": "https://example.com/nanoray-10f.jpg",
+        "price": 14899,
+        "category": "Rackets",
+        "rating": 4.1,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "VICTOR ARROW SPEED",
+        "img": "https://example.com/voltric-z-force-ii.jpg",
+        "price": 2999,
+        "category": "Rackets",
+        "rating": 4.9,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "VICTOR A362II",
+        "img": "https://example.com/aerus-3.jpg",
+        "price": 3699,
+        "category": "Shoes",
+        "rating": 4.7,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "VICTOR ARROW SPEED II",
+        "img": "https://example.com/nanoray-z-speed.jpg",
+        "price": 4199,
+        "category": "Rackets",
+        "rating": 4.6,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "AP70 RAINBOW",
+        "img": "https://example.com/yonex-bg65.jpg",
+        "price": 299,
+        "category": "Strings",
+        "rating": 4.2,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "GP 24",
+        "img": "https://example.com/victor-gr-370.jpg",
+        "price": 399,
+        "category": "Grips",
+        "rating": 4.0,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "NO.7 BOOST",
+        "img": "https://example.com/yonex-bg80.jpg",
+        "price": 549,
+        "category": "Strings",
+        "rating": 4.3,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "VICTOR GR-200",
+        "img": "https://example.com/li-ning-gp20.jpg",
+        "price": 899,
+        "category": "Grips",
+        "rating": 4.3,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "LI-NING BLADEX",
+        "img": "https://example.com/yonex-nanoray-20.jpg",
+        "price": 16999,
+        "category": "Rackets",
+        "rating": 4.4,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "VICTOR BRAVE SWORD",
+        "img": "https://example.com/victor-thruster-k-9900.jpg",
+        "price": 2499,
+        "category": "Rackets",
+        "rating": 4.8,
+        "brand":"VICTOR"
+    },
+    {
+        "name": "LI-NING AXFORCE 100",
+        "img": "https://example.com/li-ning-windstorm-72.jpg",
+        "price": 1999,
+        "category": "Rackets",
+        "rating": 4.5,
+        "brand":"LI-NING"
+    },
+    {
+        "name": "VICTOR THRUSTER HAWK",
+        "img": "https://example.com/victor-thruster-hawk.jpg",
+        "price": 1799,
+        "category": "Rackets",
+        "rating": 4.6,
+        "brand":"VICTOR"
+    }
+]
+
+
